@@ -1,11 +1,3 @@
-//
-//  main.cpp
-//  C++ Project
-//
-//  Created by Evan Crabtree on 07/02/2019.
-//  Copyright © 2019 QuantumFluctuator. All rights reserved.
-//
-
 #include <iostream>
 
 using namespace std;
