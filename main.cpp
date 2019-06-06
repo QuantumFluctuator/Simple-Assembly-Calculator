@@ -36,7 +36,7 @@ long mult(long x, unsigned long y) {
         cmp rcx, rdx    //compare counter with RDX
         jne loop        //if counter and RDX not equal, begin loop again
     endLoop:
-        mov z, rax      //copy factorial into z for return
+        mov z, rax      //copy result into z for return
     }
     return z;
 }
@@ -88,7 +88,7 @@ long fact(long x) {
         cmp r8, 1       //compare next multiplication value with 1
         jne multiply    //if not equal to 1, reiterate multiplication
     complete:
-        mov z, rax      //copy total into z
+        mov z, rax      //copy result into z
     }
     return z;
 }
